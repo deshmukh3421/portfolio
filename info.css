@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(winter-blue-pink-gradient-background-vector_53876-117276.avif);
+    background-size: cover;
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header__a {
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+}
+
+.header__a:hover,
+.header__a:focus {
+    color: teal;
+}
+
+.header__ul {
+    display: flex;
+    gap: 1.3rem;
+    list-style-type: none;
+    margin-left: 65em;
+    margin-top: 1.5em;
+}   
+
+.header__nav {
+    margin-left: 5em;
+}
+
+.img__1 {
+    float: right;
+    margin-top: 3em;
+}
+
+.h1 {
+    padding: 0.3em;
+    text-align: left;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+.span1 {
+    font-size: 1.25em;
+}
+
+.span2 {
+    color: teal;
+}
+
+.main{
+    margin-top: 15em;
+}
+
+.main__p1 {
+    margin-left: 10.5em;
+}
+
+.main__ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.8rem;
+    margin-left: 10.5em;
+    margin-top: 3em;
+}
+
+.about {
+    clear: both;
+    margin-top: 25em;
+    min-height: 30em;
+}
+
+.img__about1 {
+    float: left;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.about__h2 {
+    margin-left: 17em;
+}
+
+.span__about {
+    color: teal;
+}
+
+.about__p {
+    width: 60%;
+    margin-left: 25.5em;
+    margin-bottom: 3em;
+}
+
+.about__ul1 {
+    display: flex;
+    list-style-type: none;
+    gap: 0.8rem;
+}
+
+.about__ul2 {
+    display: flex;
+    list-style-type: none;
+    gap: 0.8rem;
+}
+
+.a__about {
+    color: #000;
+    text-decoration: none;
+}
+
+.a__about:hover,
+.a__about:focus {
+    color: teal;
+}
+
+.contact {
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact__h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.contact__span {
+    color: teal;
+}
+
+.contact__ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10em;
+    margin-bottom: 2em;
+    justify-content: center;
+    margin-left: -10em;
+}
+
+.contact__input {
+    width: 190%;
+    height: 3em;
+    background: none;
+    padding: 0.5em;
+}
+
+.contact__p {
+    text-align: center;
+    margin-left: -1em;
+    margin-bottom: 1em;
+}
+
+.contact__textarea {
+    background: none;
+    padding: 0.5em;
+    border-width: 2px;
+}
+
+.submit {
+    margin-left: 50em;
+    width: 5em;
+    height: 2.5em;
+    margin-bottom: 2em;
+    background: none;
+}
+
+.submit:hover {
+    background-color: rgb(72, 126, 126);
+
+}
